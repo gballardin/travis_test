@@ -20,6 +20,7 @@ install:
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
+  - conda env update -f environment-cpu.yml
   - source activate fastai-cpu
   - pip install -U pytest
   # for some reason  the pip section is not supported by conda env update for the time being i've paste it here:
