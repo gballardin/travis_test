@@ -45,7 +45,3 @@ install:
   # this libs are required by opencv on ubuntu 16.04
   - sudo apt install -y libsm6 libxext6 libxrender-dev libgl1-mesa-glx
 
-
-script:
-  #- python -m unittest
- # -  python -m pytest tests
